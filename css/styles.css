@@ -26,4 +26,35 @@ ul{
 body{
     font-family: sans-serif;
     margin: 0;
+    background-color: #6b6b6b;
+    color: white;
+    font-size: 20px;
+}
+.fila{
+    display: flex;
+}
+
+.box{
+    width: 300px;
+    height: 200px;
+    border: 2px solid white;
+}
+
+.box1{
+    background-image: radial-gradient(circle, rgba(199, 19, 19, 0.692) 70px,white 70px);
+}
+
+.box2{
+    background-image: radial-gradient(circle at 120px,  rgb(240, 236, 30) 70px, rgb(51, 127, 226) 70px);
+}
+
+.box3{
+    background-image:radial-gradient(circle, white 50px, transparent 50px),linear-gradient(#c20d0d 50px, rgb(15, 15, 172) 50px 150px, #c20d0d 150px);
+}
+
+.arcoiris{
+    width: 1000px;
+    height: 500px ;
+    border: 2px solid white;
+    background-image: radial-gradient(circle at 500px 500px, #6b6b6b 100px, red 100px 150px, orange 150px 200px, yellow 200px 250px, green 250px 300px, blue 300px 350px, purple 350px 400px, rgb(214, 85, 107) 400px 450px, transparent 450px   );
 }
